@@ -1,8 +1,87 @@
+/* document */
+
 html {
     font-family: "Montserrat";
+    font-size: 14px;
+    color: black;
 }
 
+
+/* font & elementary higlights (quotation, link etc.) */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat Subrayada";
+    font-weight: 400;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 2.3rem;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 1.3rem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color .5s ease;
+}
+
+a:hover {
+    color: #a56336;
+}
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    padding: 30px;
+}
+
+blockquote:first-letter {
+    margin: 5px 3px 2px 0;
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+/* sections */
+
 body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 15vh;
+    margin-top: 10px;
 }
 
 .wrapper {
@@ -11,15 +90,47 @@ body {
 }
 
 main {
-    text-align: center;
     line-height: 2rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat Subrayada";
-    font-weight: 400;
 }
 
 section {
     text-align: justify;
 }
+
+figure {
+    margin: 50px 0;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+
+/* nav */
+
+.nav-bar {
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 20px 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.post-info {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+/* images */
