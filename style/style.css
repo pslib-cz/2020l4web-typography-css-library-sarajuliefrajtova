@@ -53,7 +53,7 @@ a {
 }
 
 a:hover {
-    color: #a56336;
+    color: white;
 }
 
 blockquote {
@@ -80,8 +80,8 @@ body {
 }
 
 header {
-    height: 15vh;
-    margin-top: 10px;
+    margin-bottom: 100px;
+    background-color: #ffd6ba80;
 }
 
 .wrapper {
@@ -105,12 +105,35 @@ figcaption {
     font-style: italic;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    height: 30vh;
+    background-color: #ffd6babb;
+}
+
+footer p {
+    align-self: flex-end;
+    margin: 30px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+}
 
 /* nav */
 
 .nav-bar {
     margin: 0;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 2px;
 }
 
