@@ -85,7 +85,7 @@ body {
     margin: 0;
 }
 
-header {
+.header {
     margin-bottom: 100px;
     background-color: #ffd6ba80;
 }
@@ -111,7 +111,7 @@ figcaption {
     font-style: italic;
 }
 
-footer {
+.footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,12 +121,12 @@ footer {
     background-color: #ffd6ba60;
 }
 
-footer p {
+.footer p {
     align-self: flex-end;
     margin: 30px;
 }
 
-footer ul {
+.footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
