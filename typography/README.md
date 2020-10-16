@@ -11,10 +11,10 @@ Link to **[demo](http://sarajuliefrajtova.github.io/typography/)** site for prev
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/typhography.css">
     <link rel="stylesheet" href="./style/queries.css">
-    <link rel="stylesheet" href="./style/normalize.css">
     <title>CCS typografická knihovna</title>
 </head>
 ``` 
@@ -102,11 +102,11 @@ If you want, you can even use the ```<header> ``` section with the following ```
     <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
 </figure>
 ``` 
-### Footer in a post
+### .footer in a post
 ``` 
     </main>
 
-    <footer>
+    <footer class="footer">
 
         <ul>
             <li><a href="#">INSTAGRAM</a></li>
