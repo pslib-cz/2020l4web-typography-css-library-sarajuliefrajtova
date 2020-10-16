@@ -11,10 +11,10 @@ Link to **[demo](http://sarajuliefrajtova.github.io/typography/)** site for prev
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/typhography.css">
     <link rel="stylesheet" href="./style/queries.css">
-    <link rel="stylesheet" href="./style/normalize.css">
     <title>CCS typografická knihovna</title>
 </head>
 ``` 
@@ -54,10 +54,10 @@ There are also some components which can be initialized by classes - e.g. ``` .w
 There is also ```.post-info``` **class** which can be used for ***author name*** or ***date*** of posting the article.
 ## Components
 
-### Header 
-If you want, you can even use the ```<header> ``` section with the following ```.nav-bar``` class. 
+### ``` .header ``` class
+If you want, you can even use the ```.header ``` class with the following ```.nav-bar``` class to design it for example as navigation in header etc.
 ``` 
- <header>
+ <header class="header">
         <nav class="nav-bar">
             <ul>
                 <li><a href="#">Logo</a></li>
@@ -66,16 +66,6 @@ If you want, you can even use the ```<header> ``` section with the following ```
             </ul>
         </nav>
     </header>
-``` 
-
-### Section, heading (***h2***) and paragraph in an article 
-``` 
-<section>
-    <h2>2nd heading</h2>
-    <p>
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ea debitis suscipit, quia pariatur reprehenderit nesciunt at quam adipisci nobis libero                sapiente assumenda distinctio modi facilis, doloribus deleniti iusto qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, alias cum? Magni          quasi voluptatum velit modi consequatur, excepturi assumenda aliquam cum pariatur quidem, quo veritatis earum nulla officiis porro corporis!
-    </p>
-</section>
 ``` 
 
 ### Lists 
@@ -102,11 +92,11 @@ If you want, you can even use the ```<header> ``` section with the following ```
     <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
 </figure>
 ``` 
-### Footer in a post
+### ```.footer``` class in a post
 ``` 
     </main>
 
-    <footer>
+    <footer class="footer">
 
         <ul>
             <li><a href="#">INSTAGRAM</a></li>
