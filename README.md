@@ -102,7 +102,7 @@ If you want, you can even use the ```<header> ``` section with the following ```
     <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
 </figure>
 ``` 
-### .footer in a post
+### ```.footer``` class in a post
 ``` 
     </main>
 
