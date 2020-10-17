@@ -96,7 +96,7 @@ If you want, you can even use the ```.header ``` class with the following ```.na
 ``` 
     </main>
 
-    <footer class="footer">
+    <footer class="social-media">
 
         <ul>
             <li><a href="#">INSTAGRAM</a></li>
