@@ -54,7 +54,7 @@ There are also some components which can be initialized by classes - e.g. ``` .w
 There is also ```.post-info``` **class** which can be used for ***author name*** or ***date*** of posting the article.
 ## Components
 
-### ``` .header ``` class
+### Header
 If you want, you can even use the ```.header ``` class with the following ```.nav-bar``` class to design it for example as navigation in header etc.
 ``` 
  <header class="header">
@@ -92,11 +92,11 @@ If you want, you can even use the ```.header ``` class with the following ```.na
     <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
 </figure>
 ``` 
-### ```.footer``` class in a post
+### Footer
 ``` 
     </main>
 
-    <footer class="footer">
+    <footer class="social-media">
 
         <ul>
             <li><a href="#">INSTAGRAM</a></li>
