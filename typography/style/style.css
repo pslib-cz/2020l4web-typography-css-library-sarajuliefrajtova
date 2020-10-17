@@ -115,7 +115,7 @@ figcaption {
     font-style: italic;
 }
 
-.footer {
+.social-media {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,12 +125,12 @@ figcaption {
     background-color: #ffd6ba60;
 }
 
-.footer p {
+.social-media p {
     align-self: flex-end;
     margin: 30px;
 }
 
-.footer ul {
+.social-media ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
