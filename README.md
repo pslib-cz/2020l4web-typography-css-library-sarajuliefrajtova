@@ -19,7 +19,7 @@ Link to **[demo](http://sarajuliefrajtova.github.io/typography/)** site for prev
 </head>
 ``` 
 ## Usage
-This library is recommended for a blog posts pages use. CSS files are primarly based on styling HMTL tags such as ```<section>```,  ```<h1>, <h2>``` etc.:
+This library is recommended for a blog posts pages use. CSS files are primarly based on styling HMTL tags such as ```<section>```,  ```<h1>```, ``` <h2>``` etc.:
 - ol/ul, li
 - blockquote
 - p, a
