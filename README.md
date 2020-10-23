@@ -1,7 +1,7 @@
 # TYPOGRAPHY CSS LIBRARY #
 **Author:** *Sara Julie Frajtova*
 ## Demo site
-Link to **[demo](http://sarajuliefrajtova.github.io/docs/)** site for preview.
+Link to **[demo](http://pslib-cz.github.io/2020l4web-typography-css-library-sarajuliefrajtova/)** site for preview.
 ## Dependecies
 ``` 
 <link rel="stylesheet" href="./style/normalize.css">
