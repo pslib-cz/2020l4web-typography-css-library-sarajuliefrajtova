@@ -11,7 +11,7 @@ Link to **[demo](http://sarajuliefrajtova.github.io/typography/)** site for prev
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../docs/normalize.css">
+    <link rel="stylesheet" href="../normalize.css">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../typhography.css">
     <link rel="stylesheet" href="../queries.css">
