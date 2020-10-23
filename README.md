@@ -1,7 +1,7 @@
 # TYPOGRAPHY CSS LIBRARY #
 **Author:** *Sara Julie Frajtova*
 ## Demo site
-Link to **[demo](http://sarajuliefrajtova.github.io/typography/)** site for preview.
+Link to **[demo](http://sarajuliefrajtova.github.io/docs/)** site for preview.
 ## Dependecies
 ``` 
 <link rel="stylesheet" href="./style/normalize.css">
@@ -11,10 +11,10 @@ Link to **[demo](http://sarajuliefrajtova.github.io/typography/)** site for prev
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/normalize.css">
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/typhography.css">
-    <link rel="stylesheet" href="../style/queries.css">
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../typhography.css">
+    <link rel="stylesheet" href="../queries.css">
     <title>CCS typografická knihovna</title>
 </head>
 ``` 
